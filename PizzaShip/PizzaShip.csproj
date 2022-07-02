@@ -9,6 +9,34 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\images\Pizzas\Bolognese.png" />
+    <Content Remove="wwwroot\images\Pizzas\Carbonara.png" />
+    <Content Remove="wwwroot\images\Pizzas\Create.png" />
+    <Content Remove="wwwroot\images\Pizzas\Hawaiian.png" />
+    <Content Remove="wwwroot\images\Pizzas\Margerita.png" />
+    <Content Remove="wwwroot\images\Pizzas\MeatFeast.png" />
+    <Content Remove="wwwroot\images\Pizzas\Mushroom.png" />
+    <Content Remove="wwwroot\images\Pizzas\Pepperoni.png" />
+    <Content Remove="wwwroot\images\Pizzas\Seafood.png" />
+    <Content Remove="wwwroot\images\Pizzas\Vegetarian.png" />
+    <Content Remove="wwwroot\images\PizzaTime.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\Pizzas\Bolognese.png" />
+    <None Include="wwwroot\images\Pizzas\Carbonara.png" />
+    <None Include="wwwroot\images\Pizzas\Create.png" />
+    <None Include="wwwroot\images\Pizzas\Hawaiian.png" />
+    <None Include="wwwroot\images\Pizzas\Margerita.png" />
+    <None Include="wwwroot\images\Pizzas\MeatFeast.png" />
+    <None Include="wwwroot\images\Pizzas\Mushroom.png" />
+    <None Include="wwwroot\images\Pizzas\Pepperoni.png" />
+    <None Include="wwwroot\images\Pizzas\Seafood.png" />
+    <None Include="wwwroot\images\Pizzas\Vegetarian.png" />
+    <None Include="wwwroot\images\PizzaTime.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
   </ItemGroup>
 
